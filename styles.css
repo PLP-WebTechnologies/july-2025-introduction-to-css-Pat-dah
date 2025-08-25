@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.site-header {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: 2px solid #4a90e2;
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #357ab8;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+}
